@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Hover</title>
+        <style type="text/css">
+            .container {
+                width: 90%;
+                padding: 20px;
+                margin: 100px auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .box {
+                width: 250px;
+                margin: 0 10px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+            }
+
+            .box img {
+                display: block;
+                width: 100%;
+                border-radius: 5px;
+                transition: 0.3s;
+            }
+
+            .box:hover {
+                transform: scale(1.2);
+                z-index: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <img src="https://wallpapercosmos.com/w/full/9/a/e/576049-2000x3556-mobile-hd-apple-fruit-background.jpg" height="400px" width="200px">
+            </div>
+            <div class="box">
+                <img src="https://c0.wallpaperflare.com/preview/491/426/451/mango-juice.jpg" height="400px" width="250px">
+            </div>
+            <div class="box">
+                <img src="https://w0.peakpx.com/wallpaper/271/323/HD-wallpaper-sandwich-food-lover-food-sandwich.jpg" height="400px" width="250px">
+            </div>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=blurred-background-bowl-ceramic-842571.jpg&fm=jpg" height="400px" width="250px">
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/premium-photo/glass-ice-cream-with-scoop-vanilla-ice-cream-raspberry-sauce_737761-752.jpg"height="400px" width="250px">
+            </div>
+        </div>
+    </body>
+</html>
